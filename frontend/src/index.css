@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header__title {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+nav {
+  padding: 1rem 0.5rem;
+}
+
+.nav__items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nav__item a {
+  color: black;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 1rem;
+  width: 100%;
+}
+
+input {
+  padding: 1rem;
+  font-size: 0.8rem;
+}
+
+.form__element {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  padding-bottom: 0.5rem;
+}
+
+button {
+  padding: 1rem;
+  font-size: 1rem;
+  background-color: green;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
